@@ -17,7 +17,7 @@ public class Remplacement {
     private Match match;
 
     @ManyToOne
-    @JoinColumn(name = "IDJOUEURA", referencedColumnName = "idjoueurA")
+    @JoinColumn(name = "IDJOUEURA", referencedColumnName = "idjoueur")
     private Joueur joueurA;
 
     @ManyToOne
