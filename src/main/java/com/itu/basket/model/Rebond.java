@@ -19,6 +19,4 @@ public class Rebond {
     private Joueur joueur;
 
     private Short type;
-
-    // Autres attributs et relations si nécessaire
 }
